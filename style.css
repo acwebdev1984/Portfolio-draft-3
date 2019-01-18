@@ -1,0 +1,361 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+
+    margin: auto 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+p{
+
+    margin:0px;
+    color: white;
+}
+
+
+.covertitle{
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 70vh;
+    font-size: 5vw;
+    color: black;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+
+}
+
+.strapline1{
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #CFE2EC; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 90vh;
+    font-size: 1.5vw;
+    color: black;
+   
+
+}
+
+
+.strapline2{
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 100vh;
+    font-size: 2.6vw;
+    color: black;
+    
+}
+
+.social-cover{
+    background-color: #CFE2EC;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    max-height: 50px;
+    max-width: auto;
+    padding: 10px;
+}
+
+
+.skills{
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border:none;
+    background-color:  #CFE2EC;
+    padding: 50px;
+    
+
+}
+
+.cv{
+
+    max-width: 25%;
+    max-height: auto;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+.hi{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: none;
+    padding: 10px;
+    background-color: #CFE2EC;
+   
+   
+}
+
+.speach{
+    font-family: 'Shadows Into Light', cursive;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    padding: 20px;
+    grid-column: span 1;
+    background-color: white;
+
+    
+    }
+
+.me {
+
+justify-self: center;
+max-width: 20%;
+height: auto;
+border-radius: 50%;
+color: black;
+margin: 20px;
+
+}
+
+h5{
+    color: black;
+    background-color: #CFE2EC;    
+    font-size: 2.5vh;
+}
+
+h6{
+    color:black;
+    background-color: #CFE2EC;    
+    font-size: 2vh;
+
+}
+
+h3{
+    font-size:  .25em;
+    color: black;
+}
+
+h2{
+
+    color:  black;
+    font-size: 1.3vw;
+}
+
+.align-right {
+
+margin-left: auto;
+}
+
+.cover {
+    
+    border:none;
+    background-color: #CFE2EC;
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 50vh;
+    
+}
+
+
+.Portfolio-section{
+
+
+background-color:#CFE2EC;
+
+
+}
+    
+  
+
+.carousel-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #CFE2EC;
+    
+}
+
+.carousel{
+    max-height: auto;
+    max-width: 100%;
+    padding: 10px;
+    grid-column:2/4;
+    background-color: #CFE2EC;
+    
+}
+
+.d-block {
+      background-color: #CFE2EC;
+    
+
+}
+
+.logo{
+
+   
+}
+
+
+
+
+.main-nav{
+    background-color: none;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 5px;
+
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+
+    .main-nav{
+        font-size: .5em;
+        color: black;
+    }
+}
+
+
+li{
+    padding:20px;
+    color: black;
+
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.Process-layout{
+     max-height: 75vh;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap: 20px;
+     grid-template-rows: 2fr;
+     background-color: #CFE2EC;
+   
+}
+
+.Process-img{
+    align-self: center;
+    max-height: 500px;
+    max-width: auto;
+    margin: 10px;
+    background-color: #CFE2EC;
+    
+}
+
+.process-text{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    align-self: center;
+    padding:20px;
+    margin: 20px;
+    border: none;
+    color:black;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.portfolio-title{
+    border: none;
+    padding: 25px;
+    margin-top: 20px;
+    background-color: grey;
+    margin: auto 0;
+    text-align: center;
+    font-size: 3vw;
+    color: black;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    
+}
+
+
+.contact-me{
+    
+    border: none;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: grey;
+    margin: auto 0;
+    text-align: center;
+    font-size: 3vw;
+    color: black;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    
+
+}
+
+.contact-me-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-img{
+    max-height: 50px;
+    max-width: auto;
+    justify-self: center;
+    margin:20px;
+}
+
+.Process-title{
+    border: none;
+    padding: 25px;
+    background-color: grey;
+    margin: auto 0;
+    text-align: center;
+    font-size: 3vw;
+    color: black;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.5),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    
+
+}
+.skills-title{
+    border: none;
+    padding: 25px;
+    background-color: grey;
+    margin: auto 0;
+    text-align: center;
+    font-size: 3vw;
+    color: black;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    
+}
+
+.skills-section{
+
+    background-color: #CFE2EC;
+}
+
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/
+
+
