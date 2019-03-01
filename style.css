@@ -6,6 +6,7 @@ body{
 
     margin: auto 0;
     font-family: 'Orbitron', sans-serif;
+    background-color: #CFE2EC;
 }
 
 p{
@@ -60,7 +61,7 @@ p{
 .social-cover{
     background-color: #CFE2EC;
     display: flex;
-    justify-content: center;
+    justify-content: flex;
     justify-content: space-around;
     max-height: 50px;
     max-width: auto;
@@ -69,8 +70,11 @@ p{
 
 
 .skills{
+
+    border: 0px;
+    margin-bottom:25px;
     max-width: 100%;
-    max-height: auto;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -115,6 +119,7 @@ p{
     
     }
 
+
 .me {
 
 justify-self: center;
@@ -135,7 +140,7 @@ h5{
 h6{
     color:black;
     background-color: #CFE2EC;    
-    font-size: 2vh;
+    font-size: 2vw;
 
 }
 
@@ -156,10 +161,10 @@ margin-left: auto;
 }
 
 .cover {
-    
+
     border:none;
     background-color: #CFE2EC;
-    height: 87vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     vertical-align: middle;
@@ -170,7 +175,7 @@ margin-left: auto;
 
 .Portfolio-section{
 
-
+max-height: 60vh;
 background-color:#CFE2EC;
 
 
@@ -179,6 +184,7 @@ background-color:#CFE2EC;
   
 
 .carousel-grid{
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #CFE2EC;
@@ -186,7 +192,9 @@ background-color:#CFE2EC;
 }
 
 .carousel{
-    max-height: auto;
+
+    
+    max-height: auto%;
     max-width: 100%;
     padding: 10px;
     grid-column:2/4;
@@ -247,7 +255,12 @@ a{
 
 
 .Process-layout{
-     max-height: 75vh;
+     border: 0px;
+     margin-top: 75px;
+     margin-bottom: 75px;
+     margin-left: 20px;
+     margin-right: 20px;
+     max-height: 50vh;
      display: grid;
      grid-template-columns: repeat(3,1fr);
      grid-gap: 20px;
@@ -311,7 +324,7 @@ a{
 }
 
 .contact-me-grid{
-
+    max-height: 50vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -350,8 +363,11 @@ a{
 }
 
 .skills-section{
-
+    border: 0px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     background-color: #CFE2EC;
+    max-height: 60vh;
 }
 
 
